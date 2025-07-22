@@ -12,6 +12,7 @@ products on Amazon and posts affiliate links to a Telegram channel.
    ```
 3. Copy `.env.example` to `.env` and fill in your credentials.
 
+
 ## Usage
 
 Run the bot:
@@ -20,6 +21,13 @@ python main.py
 ```
 The script will scrape TikTok, search Amazon for each product mentioned in a
 video and post the information to your Telegram channel.
+### Amazon affiliate scraper (Node.js)
+Install Node.js and run:
+```bash
+npm install
+node amazon_affiliate_bot.js "trending aesthetic sunset lamp"
+
+```
 
 ## Files
 - `main.py` – orchestrates scraping and posting
